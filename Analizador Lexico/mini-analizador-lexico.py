@@ -23,7 +23,7 @@ def analizador_lexico(codigo):
                 identificador += codigo[i]
                 i += 1
 
-            tokens.append(('IDENTIFICADOR', identificador))
+            tokens.append(('0', identificador))
 
         # Número Real: entero.entero+
         elif es_digito(caracter_actual):
@@ -43,9 +43,9 @@ def analizador_lexico(codigo):
                     i += 1
 
                 numero_real = f"{entero_parte1}.{entero_parte2}"
-                tokens.append(('REAL', numero_real))
+                tokens.append(('2', numero_real))
             else:
-                tokens.append(('ENTERO', entero_parte1))
+                tokens.append(('1', entero_parte1))
 
         else:
             i += 1  # Ignorar caracteres no reconocidos
