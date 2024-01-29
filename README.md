@@ -8,4 +8,7 @@ Resultados:
 
 ![Resultados](https://github.com/LuisArturoM/SSPTII/assets/119456723/830232a4-f00c-416c-b4d2-63cb9d853197)
 
+Tabla de valores:
 
+![tabla1](https://github.com/LuisArturoM/SSPTII/assets/119456723/aeb16ae6-5575-484d-ab96-3a5bda733487)
+![tabla2](https://github.com/LuisArturoM/SSPTII/assets/119456723/a54c673c-cf69-487c-9cea-acbeba161a6f)
